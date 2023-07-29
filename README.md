@@ -1,5 +1,5 @@
 # Preparation
-1. Clone this repo
+1. Fork this repo
 2. Update `brew/Brewfile` with your preferred apps
 3. Replace your GH username in all files
 
