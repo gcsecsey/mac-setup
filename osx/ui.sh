@@ -7,4 +7,4 @@ osascript -e 'tell application "System Events" to tell appearance preferences to
 defaults write com.apple.dock mru-spaces -bool false
 
 # Reduce transparency
-defaults write com.apple.universalaccess reduceTransparency -bool true
+defaults write com.apple.Accessibility EnhancedBackgroundContrastEnabled -bool true

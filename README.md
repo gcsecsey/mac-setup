@@ -19,10 +19,11 @@ Open `Preferences > Advanced > Set Preferences Folder` and set restore the backu
 ## iStat Menus
 Restore the backup
 
-## Copy manually
-1. ~/.ssh
-2. ~/.SwitchHosts
-3. ~/.gitconfig
+## Manually
+1. Copy ~/.ssh
+2. Copy ~/.SwitchHosts
+3. Copy ~/.gitconfig
+4. Run `nvm install node`
 
 ## AutoProxy 
 Link: https://fieldguide.automattic.com/autoproxxy/
