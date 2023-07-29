@@ -5,10 +5,9 @@ source common/functions.sh
 # Dock
 echo ">> Setup dock parameters"
 defaults write com.apple.dock autohide -bool true
-defaults write com.apple.dock magnification -bool true
-defaults write com.apple.dock tilesize -float 32
-defaults write com.apple.dock largesize -float 92
-defaults write com.apple.dock orientation right
+defaults write com.apple.dock magnification -bool false
+defaults write com.apple.dock tilesize -float 64
+defaults write com.apple.dock orientation bottom
 defaults write com.apple.dock mineffect genie
 defaults write com.apple.dock minimize-to-application true
 delete_if_available com.apple.dock persistent-apps
@@ -30,13 +29,5 @@ delete_if_available com.apple.systemuiserver "NSStatusItem Visible DoNotDisturb"
 # Airplay
 defaults write com.apple.airplay showInMenuBarIfPresent false
 
-# Time machine
-defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.TimeMachine" true
-defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/TimeMachine.menu"
-
 echo ">> Restarting SystemUIServer"
 killall -KILL SystemUIServer
-
-# Spotlight
-# spotlight_key_status=`defaults read com.apple.symbolichotkeys AppleSymbolicHotKeys | tr '    64 =     {\n        enabled = 1;' '    64 =     {\n        enabled = 0;'`
-# defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys "$spotlight_key_status"
