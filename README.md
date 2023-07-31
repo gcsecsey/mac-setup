@@ -27,7 +27,6 @@ Restore the backup
 
 ## AutoProxy 
 Link: https://fieldguide.automattic.com/autoproxxy/
-Settings: https://share.cleanshot.com/TD1ct0vL
 
 # Updating the codebase over time
 
