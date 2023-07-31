@@ -14,10 +14,12 @@
 # Manual items
 
 ## Alfred
-Open `Preferences > Advanced > Set Preferences Folder` and set restore the backup
+1. Open `Preferences > Advanced > Set Preferences Folder` and set restore the backup
+2. [TODO] Some dependencies need to be installed manually for now https://www.alfredapp.com/help/kb/install-dependencies/
 
 ## iStat Menus
-Restore the backup
+1. Restore the backup
+2. Hide the MacOS time and battery icons
 
 ## Manually
 1. Copy ~/.ssh

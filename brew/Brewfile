@@ -32,7 +32,6 @@ cask "firefox"
 cask "google-chrome"
 cask "istat-menus"
 cask "postman"
-# cask "rectangle"
 cask "spotify"
 cask "visual-studio-code"
 cask "vlc"
@@ -53,4 +52,3 @@ mas "Xcode", id: 497799835
 mas "Spark", id: 1176895641
 mas "Controler for Homekit", id: 1198176727
 mas "Slack", id: 803453959
-# mas "Magnet", id: 441258766
