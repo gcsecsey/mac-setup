@@ -24,6 +24,7 @@ brew "wget"
 brew "yarn"
 brew "youtube-dl"
 brew "mysql"
+brew "gpg"
 
 cask "1password"
 cask "1password-cli"
